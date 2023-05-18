@@ -2,6 +2,7 @@ body{
     font-size: 20px;
     font-family: "Oswald";
 }
+
 .list{
     background-color: lightblue;
     border-radius: 5px;
@@ -46,17 +47,35 @@ li::before{
 div#titul{
     position: relative;
 }
-.titul{
+#imagetext{
+    font-size: 36px;
+    display: flex;
     position: absolute;
     top: 25%;
     left: 10%;
     width: 350px;
+    height: 200px;
     color: rgb(255, 255, 255);
     font-size: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 100px;
 }
 p{
     font-size: 18px;
 }
 .final{
     font-size: 22px;
+}
+.container{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+#con2{
+    width: 50%;
+    justify-content: center;
+}
+.heading{
+    width: 10cm;
 }
