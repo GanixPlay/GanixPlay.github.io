@@ -1,83 +1,33 @@
-body{
+.containermain{  
+    font-family: "Oswald", sans-serif;
     font-size: 20px;
-    font-family: "Oswald";
-}
-
-.list{
-    background-color: lightblue;
-    border-radius: 5px;
-    border-bottom: 100px;
-    margin: 10px;
-    text-align: center;
-    padding: 10px;
-    width: fit-content;
-}
-h3{
-    color: #143D69;
-    text-align: center;
-    font-size: 25px;
-}
-td{
-    width: 10cm;
-    text-align: justify;
-    text-indent: 10px;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-th{
-    color: rgb(20, 61, 104);
-    font-size: 25px;
-}
-ul{
-    list-style-position: inside;
-}
-li{
-    list-style-type: none;
-    padding: 5px;
-}
-li::before{
-    content: "·";
-    margin-right: 5px;
-}
-.Info{
-    display: inline-block;
-    text-align: right;
-    padding-right: 500px;
-}
-div#titul{
-    position: relative;
 }
 #imagetext{
     font-size: 36px;
-    display: flex;
-    position: absolute;
-    top: 25%;
-    left: 10%;
-    width: 350px;
-    height: 200px;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 100px;
+    line-height: 72px;
+    margin: 400px 0px;
+}
+ul
+{    
+    list-style-position: inside;
 }
 p{
-    font-size: 18px;
-    text-indent: 10px;
+    text-indent: 5px;    
+    padding: 10px;
+    margin: 10px;    
+    line-height: 30px;
+}
+li{
+    margin: 10px;    
+    padding: 10px;
+}
+.heading2{
+    color: rgb(20, 61, 104);
+}
+.headerinfo{
+    margin: 10px;
+    padding: 10px;
 }
 .final{
-    font-size: 22px;
-}
-.container{
-    display: inline-block;
-    flex-direction: row;
-    justify-content: flex-start;
-
-}
-#con2{
-    width: 50%;
-    justify-content: center;
-}
-.heading{
-    width: 10cm;
+    text-indent: 0px;
 }
